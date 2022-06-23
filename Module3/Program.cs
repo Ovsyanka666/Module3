@@ -3,10 +3,16 @@
 
         static void Main()
         {
-            string MyName;
-            MyName = "Lera";
+            const string MyName = "Lera";
             Console.WriteLine(MyName);
-            Console.ReadKey();
+            Console.WriteLine("\t Привет, мир");
+            Console.WriteLine("\t Мне 22 года");
+            Console.WriteLine("\t My name is\nLera");
+
+            Console.WriteLine('\u0040'); 
+            Console.WriteLine('\u0023');
+
+            
 
         }
     }
